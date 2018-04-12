@@ -1,0 +1,181 @@
+body {
+	background-color: gray;
+}
+h2	{
+	color: tomato;
+}
+p	{
+	text-align: justify;
+}
+.white {
+	background-color: white;
+	width: 75vw;
+	overflow: hidden;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+	@media (min-width: 481px){
+		.col {
+			width: 75vw;
+			background-color: white;
+			border-bottom: solid 2px gray;
+			text-align: center;
+			margin-top: 100px;
+		}
+	.col img{
+    width:15%;
+    height:15%;
+    border-radius:50%;
+    z-index: 0;
+    position: relative;
+    top: -40px;
+    border: solid 2px white;
+}
+	.col-offset {
+		margin-left: 12vw;
+	}
+	.col-md-1{
+		width: 50vw;
+		background-color: white;
+		float: left;
+		padding: 1%;
+		box-sizing: border-box;
+		display: table-cell;
+	}
+	.col-md-2 {
+		width: 25vw;
+		background-color: white;
+		float: left;
+		display: table-cell;
+		box-sizing: border-box;
+	}
+	.col-1 {
+		width: 15%;
+		float: left;
+
+	}
+	.col-2{
+		width: 85%;
+		background-color: gray;
+		float: left;
+		border-bottom: solid white 5px;
+		}
+	.col-3 {
+		width: 20%;
+		float: left;
+	}
+	.col-4 {
+		width: 80%;
+		float: left;
+		padding-bottom: 2%;
+	}
+
+}
+	
+	@media (max-width: 480px){
+			.col {
+			width: 100vw;
+			background-color: white;
+			border-bottom: solid 2px gray;
+			text-align: center;
+			margin-top: 50px;
+		}
+	.col img{
+    width:30%;
+    height:30%;
+    border-radius:50%;
+    z-index: 0;
+    position: relative;
+    top: -40px;
+    border: solid 2px white;
+}
+	
+	.col-md-1{
+		width: 100vw;
+		background-color: white;
+		padding: 1%;
+		
+	}
+	.col-md-2 {
+		width: 100vw;
+		background-color: white;
+		
+	}
+	.col-1 {
+		text-align: center;
+
+	}
+	.col-2{
+		background-color: gray;
+		border-bottom: solid white 5px;
+		}
+	.col-3 {
+		text-align: center;
+	}
+	.col-4 {
+		padding-bottom: 2%;
+	}
+
+	}
+
+.div_idioma {
+	width: 100%;
+	clear: both;
+}
+
+.idioma {
+	width: 60%;
+	float: left;
+	border-bottom: solid 1px gray;
+}
+.estrella {
+	text-align: center;
+	width: 40%;
+	float: left;
+	border-bottom: solid 1px gray;
+}
+.estrella .tomato {
+	color: tomato;
+}
+.estrella .gray {
+	color: gray;
+}
+
+ .py {
+	width: 80%;
+	background-color: tomato;
+	color: white;
+	border-bottom: solid 2px white;
+}
+ .html {
+	width: 60%;
+	background-color: tomato;
+	color: white;
+	border-bottom: solid 2px white;
+}
+ .css {
+	width: 40%;
+	background-color: tomato;
+	color: white;
+	border-bottom: solid 2px white;
+}
+.js {
+	width: 30%;
+	background-color: tomato;
+	color: white;
+	border-bottom: solid 2px white;
+}
+.php {
+	width: 20%; 
+	background-color: tomato;
+	color: white;
+	border-bottom: solid 2px white;
+}
+.morado {
+	background-color: purple;
+	color: white;
+	display: inline;
+}
