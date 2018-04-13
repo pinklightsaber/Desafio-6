@@ -7,17 +7,19 @@ h2	{
 p	{
 	text-align: justify;
 }
-.white {
+
+
+
+	@media (min-width: 481px){
+		.white {
 	background-color: white;
 	width: 75vw;
 	overflow: hidden;
 }
 
-.center {
+		.center {
 	margin: 0 auto;
 }
-
-	@media (min-width: 481px){
 		.col {
 			width: 75vw;
 			background-color: white;
@@ -94,14 +96,17 @@ p	{
 }
 	
 	.col-md-1{
+		margin: 0 auto;
 		width: 100vw;
 		background-color: white;
 		padding: 1%;
+		box-sizing: border-box;
 		
 	}
 	.col-md-2 {
 		width: 100vw;
 		background-color: white;
+		box-sizing: border-box;
 		
 	}
 	.col-1 {
